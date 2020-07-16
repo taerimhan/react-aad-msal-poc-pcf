@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AzureADAppAuthority_Desc_Key" xml:space="preserve">
+    <value>Azure AD App Authority</value>
+  </data>
+  <data name="AzureADAppAuthority_Display_Key" xml:space="preserve">
+    <value>Azure AD App Authority</value>
+  </data>
+  <data name="AzureADAppId_Desc_Key" xml:space="preserve">
+    <value>Azure AD App Id</value>
+  </data>
+  <data name="AzureADAppId_Display_Key" xml:space="preserve">
+    <value>Azure AD App Id</value>
+  </data>
+  <data name="AzureADAppRedirectUrl_Desc_Key" xml:space="preserve">
+    <value>Azure AD App Redirect Url</value>
+  </data>
+  <data name="AzureADAppRedirectUrl_Display_Key" xml:space="preserve">
+    <value>Azure AD App Redirect Url</value>
+  </data>
+  <data name="Control_Desc_Key" xml:space="preserve">
+    <value>Proof of Concept Control that demonostrates how React-AAD-MSAL npm package can be used to consume custom Web API secured using Azure AD</value>
+  </data>
+  <data name="Control_Display_Key" xml:space="preserve">
+    <value>React AAD Control</value>
+  </data>
+  <data name="CacheLocation_Desc_Key" xml:space="preserve">
+    <value>Cache Location</value>
+  </data>
+  <data name="CacheLocation_Display_Key" xml:space="preserve">
+    <value>Cache Location</value>
+  </data>
+  <data name="CacheLocation_SessionStorage_Display_Key" xml:space="preserve">
+    <value>Session Storage</value>
+  </data>
+  <data name="CacheLocation_LocalStorage_Display_Key" xml:space="preserve">
+    <value>Local Storage</value>
+  </data>
+  <data name="ForceLogin_Desc_Key" xml:space="preserve">
+    <value>Force Login</value>
+  </data>
+  <data name="ForceLogin_Display_Key" xml:space="preserve">
+    <value>Force Login</value>
+  </data>
+  <data name="ForceLogin_True_Display_Key" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="ForceLogin_False_Display_Key" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="ApiUrl_Desc_Key" xml:space="preserve">
+    <value>Custom Web API Url secured using Azure AD</value>
+  </data>
+  <data name="ApiUrl_Display_Key" xml:space="preserve">
+    <value>API Url</value>
+  </data>
+  <data name="AzureADAppScopes_Desc_Key" xml:space="preserve">
+    <value>Azure AD App Scopes</value>
+  </data>
+  <data name="AzureADAppScopes_Display_Key" xml:space="preserve">
+    <value>Azure AD App Scopes</value>
+  </data>
+  <data name="Bound_Desc_Key" xml:space="preserve">
+    <value>Any SingleLine.Text field to bind the PCF control</value>
+  </data>
+  <data name="Bound_Display_Key" xml:space="preserve">
+    <value>Bound Field</value>
+  </data>
+</root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="TRH" constructor="ReactAadControl" version="1.0.0" display-name-key="Control_Display_Key" description-key="Control_Desc_Key" control-type="standard">
+    <property name="bound" display-name-key="Bound_Display_Key" description-key="Bound_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="apiUrl" display-name-key="ApiUrl_Display_Key" description-key="ApiUrl_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="azureADAppId" display-name-key="AzureADAppId_Display_Key" description-key="AzureADAppId_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="azureADAppAuthority" display-name-key="AzureADAppAuthority_Display_Key" description-key="AzureADAppAuthority_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="azureADAppRedirectUrl" display-name-key="AzureADAppRedirectUrl_Display_Key" description-key="AzureADAppRedirectUrl_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="azureADAppScopes" display-name-key="AzureADAppScopes_Display_Key" description-key="AzureADAppScopes_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="cacheLocation" display-name-key="CacheLocation_Display_Key" description-key="CacheLocation_Desc_Key" of-type="Enum" usage="input" required="false" default-value="sessionStorage">
+      <value name="sessionStorage" display-name-key="CacheLocation_SessionStorage_Display_Key" description-key="">sessionStorage</value>
+      <value name="localStorage" display-name-key="CacheLocation_LocalStorage_Display_Key" description-key="">localStorage</value>
+    </property>
+    <property name="forceLogin" display-name-key="ForceLogin_Display_Key" description-key="ForceLogin_Desc_Key" of-type="Enum" usage="input" required="false" default-value="false">
+      <value name="true" display-name-key="ForceLogin_True_Display_Key" description-key="">true</value>
+      <value name="false" display-name-key="ForceLogin_False_Display_Key" description-key="">false</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <resx path="strings/ReactAadControl.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>
