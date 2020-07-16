@@ -3,7 +3,7 @@ A control that demonostrates how react-aad-msal npm package can be utilised in P
 
 # Configuration
 1. Add or choose a binding field of type "Single Line of Text" on your form. Add the custom control to the field.\
-![Configure Add Control](/docs/Configure-Add-Control.png)
+![Configure Add Control](/docs/Configure-Add-Control.PNG)
 2. Configure the custom control properties (more detail in the post linked below).
 ![Configure Control Properties](/docs/Control-Properties.PNG)
 5. Save and publish. 
