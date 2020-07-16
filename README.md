@@ -1,5 +1,5 @@
 # React AAD MSAL Proof of Concept PCF
-A control that demonostrates how react-aad-msal npm package can be utilised in PCF control to consume custom Web API secured by Azure AD.
+A control that demonstrates how react-aad-msal npm package can be utilised in PCF control to consume custom Web API secured by Azure AD.
 
 # Configuration
 1. Add or choose a binding field of type "Single Line of Text" on your form. Add the custom control to the field.\
